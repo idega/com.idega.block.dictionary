@@ -1,4 +1,4 @@
-#Tue Sep 09 17:03:06 CEST 2003
+#Fri Oct 24 10:43:10 CEST 2003
 =
 add_book=Add book
 add_word=Add word
@@ -9,6 +9,7 @@ close=CLOSE
 delete=Delete
 description=Description
 edit=Edit
+generate_report=
 image=Image
 iw.component.com.idega.block.dictionary.presentation.Dictionary.name=Dictionary
 save=SAVE
