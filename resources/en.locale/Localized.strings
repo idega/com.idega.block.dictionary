@@ -1,0 +1,14 @@
+#Wed Mar 05 15:51:13 CET 2003
+word=Word
+category=Category
+image=Image
+add_word=Add word
+back=Back
+categories=Categories
+add_book=Add book
+save=SAVE
+iw.component.com.idega.block.dictionary.presentation.Dictionary.name=Dictionary
+edit=Edit
+description=Description
+delete=Delete
+close=CLOSE
