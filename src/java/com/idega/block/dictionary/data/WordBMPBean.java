@@ -95,7 +95,7 @@ public class WordBMPBean extends GenericEntity implements Word {
   }
 
   public Collection ejbFindAllWordsContaining(String word) throws FinderException {
-    return super.idoFindIDsBySQL("select * from "+this.getEntityTableName()+" where "+getColumnWord()+" like '%"+word+"%'");
+    return super.idoFindIDsBySQL("select * from "+WordBMPBean.getEntityTableName()+" where "+getColumnWord()+" like '%"+word+"%'");
   }
 
 }
