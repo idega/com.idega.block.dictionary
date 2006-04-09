@@ -82,8 +82,9 @@ public class WordBMPBean extends GenericEntity implements Word {
     sql.append(getColumnCategoryID());
     sql.append(" in (");
     for ( int a = 0; a < categories.length; a++ ) {
-      if ( a > 0 )
-	sql.append(",");
+      if ( a > 0 ) {
+				sql.append(",");
+			}
       sql.append(categories[a]);
     }
     sql.append(")");
