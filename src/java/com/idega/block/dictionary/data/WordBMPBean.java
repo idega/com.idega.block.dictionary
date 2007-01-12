@@ -13,7 +13,7 @@ import com.idega.data.GenericEntity;
  * Description:
  * Copyright:    Copyright (c) 2001
  * Company:      idega.is
- * @author <a href="mailto:laddi@idega.is">Þórhallur Helgason</a>
+ * @author <a href="mailto:laddi@idega.is">ï¿½ï¿½rhallur Helgason</a>
  * @version 1.0
  */
 
@@ -83,8 +83,8 @@ public class WordBMPBean extends GenericEntity implements Word {
     sql.append(" in (");
     for ( int a = 0; a < categories.length; a++ ) {
       if ( a > 0 ) {
-				sql.append(",");
-			}
+		sql.append(",");
+	}
       sql.append(categories[a]);
     }
     sql.append(")");

@@ -70,8 +70,8 @@ public class DictionaryBusiness {
     try {
       Word word = getWordHome().create();
       if ( wordID != -1 ) {
-				word = getWordHome().findByPrimaryKey(new Integer(wordID));
-			}
+		word = getWordHome().findByPrimaryKey(new Integer(wordID));
+	}
 
       word.setWord(wordName);
       word.setDescription(description);

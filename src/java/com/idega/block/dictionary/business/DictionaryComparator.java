@@ -86,11 +86,11 @@ public class DictionaryComparator implements Comparator {
   private int categorySort(Object o1, Object o2) {
     Collator collator = null;
     if (this._locale != null) {
-			collator = Collator.getInstance(this._locale);
-		}
-		else {
-			collator = IsCollator.getIsCollator();
-		}
+		collator = Collator.getInstance(this._locale);
+	}
+	else {
+		collator = IsCollator.getIsCollator();
+	}
     
     ICCategory p1 = (ICCategory) o1;
     ICCategory p2 = (ICCategory) o2;
