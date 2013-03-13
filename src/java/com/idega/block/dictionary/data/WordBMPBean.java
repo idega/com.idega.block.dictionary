@@ -13,7 +13,7 @@ import com.idega.data.GenericEntity;
  * Description:
  * Copyright:    Copyright (c) 2001
  * Company:      idega.is
- * @author <a href="mailto:laddi@idega.is">ﬁÛrhallur Helgason</a>
+ * @author <a href="mailto:laddi@idega.is">√û√≥rhallur Helgason</a>
  * @version 1.0
  */
 
